@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <!-- Remotes -->
+        <remote name="a71-devs-repo"
+                fetch="https://github.com/a71-devs" />
+
+        <remote name="lineage-repo"
+                fetch="https://github.com/LineageOS" />
+
+        <remote name="crdroid-repo"
+                fetch="https://github.com/crdroidandroid" />
+
+        <remote name="myghi63-repo"
+                fetch="https://github.com/myghi63" />
+
+        <remote name="xenoz6-repo"
+                fetch="https://github.com/xenoz6" />
+  
+        <remote name="TogoFire-repo"
+                fetch="https://github.com/TogoFire" />
+
+        <!-- Kernel - Changes: Add LTO Thin support. Use "export KERNEL_LTO=thin" -->
+        <project remote="myghi63-repo" name="android_kernel_samsung_a71" path="kernel/samsung/a71" revision="lineage-23.2" />
+
+        <!-- Device - Changes: Zram and memory tweaks + Viper4AndroidFX support -->
+        <project remote="xenoz6-repo" name="android_device_samsung_m51" path="device/samsung/m51" revision="lineage-23.2" />
+
+        <!-- Vendor -->
+        <project remote="a71-devs-repo" name="android_vendor_samsung_m51" path="vendor/samsung/m51" revision="lineage-23.0" />
+
+        <!-- Device (Common) - Changes: Zram and memory tweaks + Viper4AndroidFX support -->
+        <project remote="myghi63-repo" name="android_device_samsung_a71-common" path="device/samsung/a71-common" revision="lineage-23.2" />
+
+        <!-- Vendor (common) -->
+        <project remote="a71-devs-repo" name="android_vendor_samsung_a71-common" path="vendor/samsung/a71-common" revision="lineage-23.0" />
+
+        <!-- Samsung Hardware -->
+        <project remote="lineage-repo" name="android_hardware_samsung" path="hardware/samsung" revision="lineage-23.2" />
+
+        <!-- Extra Samsung Interfaces -->
+        <project remote="crdroid-repo" name="hardware_samsung-extra_interfaces" path="hardware/samsung-ext/interfaces" revision="16.0" />
+
+        <!-- Viper4AndroidFX -->
+        <project remote="TogoFire-repo" name="packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" revision="v4a" />
+
+</manifest>
