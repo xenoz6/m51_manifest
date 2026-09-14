@@ -24,7 +24,7 @@
         <project remote="myghi63-repo" name="android_kernel_samsung_a71" path="kernel/samsung/a71" revision="lineage-23.2" />
 
         <!-- Device - Changes: Zram and memory tweaks + Viper4AndroidFX support -->
-        <project remote="xenoz6-repo" name="android_device_samsung_m51" path="device/samsung/m51" revision="lineage-23.2" />
+        <project remote="xenoz6-repo" name="android_device_samsung_m51" path="device/samsung/m51" revision="lunaris" />
 
         <!-- Vendor -->
         <project remote="a71-devs-repo" name="android_vendor_samsung_m51" path="vendor/samsung/m51" revision="lineage-23.0" />
